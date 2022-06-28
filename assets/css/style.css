@@ -5,8 +5,10 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-    /* font-family: 'Liu Jian Mao Cao', cursive; */
+  font-family: "Montserrat", sans-serif;
+  background: #eee;
+  color: #333;
+  /* font-family: 'Liu Jian Mao Cao', cursive; */
 }
 
 p {
@@ -20,6 +22,185 @@ h3 {
 }
 
 a {
-    color: #333;
-    text-decoration: none;
+  color: #333;
+  text-decoration: none;
 }
+
+strong {
+  color: #f1c40f;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+::selection {
+  color: #f1c40f;
+}
+
+/* class */
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.bg-dark {
+  background: #333;
+  color: white;
+}
+
+/*vp + header */
+
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem 2rem;
+  background: #333;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.vp-logo {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  font-family: "Long Cang", cursive;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  justify-items: center;
+}
+
+.vp-logo i {
+  color: #f1c40f;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.vp-logo a {
+  font-size: 3rem;
+}
+.vp-logo a:hover {
+  color: #f1c40f;
+}
+
+header a {
+  color: white;
+}
+
+header ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+header ul li {
+  padding: 1rem;
+}
+
+header ul li a:hover {
+  color: #f1c40f;
+}
+
+.vp {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/frame.jpg) center center/cover;
+}
+
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+
+.vp-content h1 {
+  font-size: 2.8rem;
+}
+
+.vp-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+/*offer */
+
+.offer {
+  padding: 10rem 1rem 10rem 1rem;
+}
+
+.offer-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.offer-elem {
+  border: 1px solid #ddd;
+  background: white;
+  margin: 1rem;
+  flex: 1;
+}
+
+.offer-elem-img {
+  width: 100%;
+}
+
+.offer-elem-text {
+  padding: 2rem;
+  text-align: center;
+}
+
+.offer-separator {
+  margin: 1rem auto;
+  height: 2px;
+  width: 50px;
+  background: #333;
+}
+
+.who {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.who-content-img {
+  flex: 1;
+}
+
+.who-content-img img {
+  width: 100%;
+}
+
+.who-content-text {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.who-content-text h2 {
+  margin-bottom: 2rem;
+}
+.who-content-text p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+
