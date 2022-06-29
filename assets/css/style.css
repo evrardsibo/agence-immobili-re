@@ -52,6 +52,10 @@ ul {
   margin-bottom: 2rem;
 }
 
+em {
+  color: #555;
+}
+
 .bg-dark {
   background: #333;
   color: white;
@@ -71,6 +75,7 @@ header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  line-height: 1.8rem;
 }
 
 .vp-logo {
@@ -79,7 +84,7 @@ header {
   font-family: "Long Cang", cursive;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+
   justify-items: center;
 }
 
@@ -91,6 +96,7 @@ header {
 
 .vp-logo a {
   font-size: 3rem;
+  font-weight: 300;
 }
 .vp-logo a:hover {
   color: #f1c40f;
@@ -130,7 +136,9 @@ header ul li a:hover {
 }
 
 .vp-content h1 {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
 }
 
 .vp-content p {
@@ -138,6 +146,7 @@ header ul li a:hover {
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 2rem;
+  margin-bottom: 30rem;
 }
 /*offer */
 
@@ -177,14 +186,12 @@ header ul li a:hover {
 .who {
   display: flex;
   flex-flow: row nowrap;
+  min-height: 600px;
 }
 
 .who-content-img {
   flex: 1;
-}
-
-.who-content-img img {
-  width: 100%;
+  background: url(../img/team.jpg) center center/cover;
 }
 
 .who-content-text {
@@ -198,9 +205,103 @@ header ul li a:hover {
 .who-content-text h2 {
   margin-bottom: 2rem;
 }
+
 .who-content-text p {
   font-size: 1.3rem;
   line-height: 1.8rem;
 }
+/*testimonials*/
 
+.testimonials {
+  padding: 5rem 1rem 5rem 1rem;
+}
 
+.testimonials-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials-elem {
+  flex: 1;
+  background: white;
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.testimonials-elem-text {
+  padding: 0 2rem;
+}
+
+.testimonials-elem-text p i {
+  margin: 0.2rem;
+}
+
+.testimonials-elem-profil p {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.testimonials-elem-profil img {
+  width: 50px;
+  border-radius: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.contact {
+  padding: 10px 1rem 10rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-form input {
+  background: #333;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #eee;
+  outline: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-form-button {
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem 1rem;
+  background: #f1c40f;
+  border: 0;
+  border-radius: 30px;
+  font-weight: 700;
+  color: #eee;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.contact-form-button:hover {
+  background: #d35400;
+}
+
+/* footer */
+
+footer {
+  background: #444;
+  padding: 3rem 1rem 3rem 1rem;
+  color: #eee;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
