@@ -11,7 +11,7 @@ Realization of a solo project
 
 ## See the project
 
-You can view the web page via this url [Agence immobilire](https://boisterous-brigadeiros-bc680e.netlify.app/)
+You can view the web page via this url [Agence immobilire](https://gentle-pavlova-8c5949.netlify.app/)
 
 ## Library / Toolkit
 
